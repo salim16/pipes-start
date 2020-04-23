@@ -9,7 +9,7 @@ export class AppComponent {
   appStatus = new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve('working');
-    },2000);
+    }, 2000);
   });
   servers = [
     {
