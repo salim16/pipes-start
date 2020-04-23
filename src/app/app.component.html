@@ -9,6 +9,8 @@
           recommended as it has performance issues -->
       <button class="btn btn-primary" (click)="onAddServer()">Add Server</button>
       <hr>
+      <!-- <h2>App Status: {{ appStatus }}</h2> -->
+      <h2>App Status: {{ appStatus | async}}</h2> <!-- works in case of observables too -->
       <ul class="list-group">
         <li
           class="list-group-item"
